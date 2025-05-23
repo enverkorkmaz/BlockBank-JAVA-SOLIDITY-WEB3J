@@ -42,6 +42,13 @@ I built this project as a personal learning initiative while expanding my knowle
 | BlockbankETH (BBETH) | `0x8EB0fcf10A9e134488aC89F0357A63a8501e3895` |
 | BlockbankSwap        | `0xEC23441F8db905f7095Bafa42b077C5518254b0a` |
 
+## 📸 Alchemy API Request Logs (Real Blockchain Interactions)
+
+![Alchemy Request Logs](AlchemySwapReq.PNG)
+
+*Real-time logs showing successful interactions (swap transactions, balances, etc.) with Ethereum Sepolia Testnet via Alchemy.*
+
+
 ## ⚙️ Installation & Running the Project
 
 ### 🐳 Docker Setup (Optional)
