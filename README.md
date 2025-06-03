@@ -71,6 +71,13 @@ Run the application:
 mvn spring-boot:run
 ```
 
+The application expects a private key for blockchain operations. Provide it via the `web3.private-key` property or as an environment variable:
+
+```bash
+export WEB3_PRIVATE_KEY=your_main_wallet_key
+mvn spring-boot:run -Dweb3.private-key=$WEB3_PRIVATE_KEY
+```
+
 ### Solidity Contracts
 
 The contracts are located in the `contracts/` directory. Compile and deploy them via Remix IDE or Hardhat.
